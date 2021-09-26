@@ -1,0 +1,55 @@
+{
+	"name": "NaveArrow",
+	"plugin-id": "Sprite",
+	"sid": 212639257353614,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Atrelar",
+			"sid": 215732489606405
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 607,
+						"height": 736,
+						"originX": -0.9645799011532126,
+						"originY": 0.49660326086956524,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4396539,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9983525535420099,
+								0,
+								0.9983525535420099,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 445225909303779,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

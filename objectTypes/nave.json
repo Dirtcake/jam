@@ -1,0 +1,70 @@
+{
+	"name": "Nave",
+	"plugin-id": "Sprite",
+	"sid": 725962099937281,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Velocidade",
+			"type": "number",
+			"desc": "",
+			"sid": 744968043174915
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 492880364645492
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1519,
+						"height": 1269,
+						"originX": 0.46774193548387094,
+						"originY": 0.4984239558707644,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2825417,
+						"collisionPoly": {
+							"points": [
+								0.18828176431863067,
+								0.1678486997635933,
+								0.46774193548387094,
+								0.27344365642237983,
+								0.6056616194865043,
+								0.33648542159180456,
+								0.8907175773535221,
+								0.4984239558707644,
+								0.6063199473337723,
+								0.6603624901497241,
+								0.46774193548387094,
+								0.72655634357762,
+								0.18564845292955892,
+								0.8313632781717888,
+								0.18959842001316649,
+								0.4984239558707644
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 434601096996395,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

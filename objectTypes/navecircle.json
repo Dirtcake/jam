@@ -1,0 +1,63 @@
+{
+	"name": "NaveCircle",
+	"plugin-id": "Sprite",
+	"sid": 745951400984865,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Atrelar",
+			"sid": 849517558217242
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2285,
+						"height": 2286,
+						"originX": 0.4986870897155361,
+						"originY": 0.4989063867016623,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8081590,
+						"collisionPoly": {
+							"points": [
+								0.750109409190372,
+								0.752405949256343,
+								0.4986870897155361,
+								0.8560804899387576,
+								0.24682713347921226,
+								0.752405949256343,
+								0.8603938730853392,
+								0.4989063867016623,
+								0.7557986870897155,
+								0.7537182852143482,
+								0.4986870897155361,
+								0.8613298337707787,
+								0.24113785557986872,
+								0.7537182852143482,
+								0.13654266958424507,
+								0.4989063867016623
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 621078416941548,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -21,12 +21,41 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Projétil",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Atrelar",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "hyyz2xiqzxh",
 	"objectTypes": {
 		"items": [
-			"Mouse"
+			"Mouse",
+			"Nave",
+			"NaveCircle",
+			"NaveArrow",
+			"Teclado",
+			"Sprite"
 		],
 		"subfolders": [
 			{
@@ -94,7 +123,7 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1",
+			"Player",
 			"Folha de eventos 2",
 			"Folha de eventos 3",
 			"Folha de eventos 4",

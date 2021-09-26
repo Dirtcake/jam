@@ -1,0 +1,402 @@
+{
+	"name": "Player",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "TargetRotation",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 933197258434180
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Movimentação",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 241830622033378,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 112080243049801,
+							"parameters": {
+								"variable": "TargetRotation",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 136813726355610
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 217618704330717,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 513042967809481,
+							"parameters": {
+								"variable": "TargetRotation",
+								"value": "90"
+							}
+						}
+					],
+					"sid": 239551415043179
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 195859491652261,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 403330813807271,
+							"parameters": {
+								"variable": "TargetRotation",
+								"value": "180"
+							}
+						}
+					],
+					"sid": 180739488625149
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 327586533879780,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 122198246883542,
+							"parameters": {
+								"variable": "TargetRotation",
+								"value": "270"
+							}
+						}
+					],
+					"sid": 490058786680045
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 551964538313202,
+							"parameters": {
+								"key": 68
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 390402644374067,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 195007875911797,
+							"parameters": {
+								"variable": "TargetRotation",
+								"value": "45"
+							}
+						}
+					],
+					"sid": 475407296692233
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 753930346139173,
+							"parameters": {
+								"key": 65
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 874050870336735,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 322799071418494,
+							"parameters": {
+								"variable": "TargetRotation",
+								"value": "135"
+							}
+						}
+					],
+					"sid": 972869143677450
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 254673966318258,
+							"parameters": {
+								"key": 65
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 277702772510743,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 167080319889679,
+							"parameters": {
+								"variable": "TargetRotation",
+								"value": "225"
+							}
+						}
+					],
+					"sid": 231729158872766
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 980289418706826,
+							"parameters": {
+								"key": 68
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Teclado",
+							"sid": 503819720126487,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 452561076414830,
+							"parameters": {
+								"variable": "TargetRotation",
+								"value": "315"
+							}
+						}
+					],
+					"sid": 844927224773937
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 528944818857119
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "NaveArrow",
+							"sid": 334412818656554,
+							"parameters": {
+								"angle": "anglelerp(NaveArrow.Angle,TargetRotation,0.5)"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Nave",
+							"sid": 627832074926335,
+							"parameters": {
+								"angle": "anglelerp(Nave.Angle,TargetRotation,0.06 )"
+							}
+						}
+					],
+					"sid": 860516765839024
+				}
+			],
+			"sid": 464295000181491
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 928730412829776
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "NaveCircle",
+					"sid": 526849966183865,
+					"behaviorType": "Atrelar",
+					"parameters": {
+						"pin-to": "Nave",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "NaveArrow",
+					"sid": 652077280025288,
+					"behaviorType": "Atrelar",
+					"parameters": {
+						"pin-to": "Nave",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 597268029345045
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 332189637827948,
+					"parameters": {
+						"key": 68
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 162348374250453,
+					"parameters": {
+						"key": 83
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 490466443405840,
+					"parameters": {
+						"key": 65
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 916041845209551,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Nave",
+					"sid": 969352308520929,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "Nave.Velocidade"
+					}
+				}
+			],
+			"sid": 993298540758854,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 867869495155387
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Nave",
+					"sid": 973305794195549,
+					"behaviorType": "Projétil",
+					"parameters": {
+						"speed": "0"
+					}
+				}
+			],
+			"sid": 816989792921166
+		}
+	],
+	"sid": 727009462613375
+}
