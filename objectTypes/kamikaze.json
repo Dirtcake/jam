@@ -1,0 +1,82 @@
+{
+	"name": "Kamikaze",
+	"plugin-id": "Sprite",
+	"sid": 847209240032418,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "distancia",
+			"type": "number",
+			"desc": "",
+			"sid": 205115736737431
+		},
+		{
+			"name": "velocidadeImpulso",
+			"type": "number",
+			"desc": "",
+			"sid": 163588775797560
+		},
+		{
+			"name": "atacou",
+			"type": "boolean",
+			"desc": "",
+			"sid": 569368645441739
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 982236005810395
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1369,
+						"height": 1011,
+						"originX": 0.485390796201607,
+						"originY": 0.5019782393669634,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8602524,
+						"collisionPoly": {
+							"points": [
+								0.15193554116827976,
+								0.24925822060846314,
+								0.412344777209642,
+								0.18001990313581864,
+								0.5777940102264426,
+								0.380811078140455,
+								0.8911614317019723,
+								0.5019782393669634,
+								0.42074489105871055,
+								0.6706230246584445,
+								0.42111047782368516,
+								0.8150346191889218,
+								0.122717311906501,
+								0.7457963620873516,
+								0.17092768444119796,
+								0.5019782393669634
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 664492043333153,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

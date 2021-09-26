@@ -1,0 +1,84 @@
+{
+	"name": "enemyTeleguiado",
+	"plugin-id": "Sprite",
+	"sid": 829620957461733,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "distancia",
+			"type": "number",
+			"desc": "",
+			"sid": 841367328547250
+		},
+		{
+			"name": "tempoTiro",
+			"type": "number",
+			"desc": "",
+			"sid": 394603840463631
+		},
+		{
+			"name": "duracaoTiro",
+			"type": "number",
+			"desc": "",
+			"sid": 437844857499406
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 333095514103433
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1548,
+						"height": 1506,
+						"originX": 0.4861111111111111,
+						"originY": 0.499667994687915,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8867966,
+						"collisionPoly": {
+							"points": [
+								0.21382428940568501,
+								0.3638779031011371,
+								0.3926033591731266,
+								0.4292828279979044,
+								0.4473514211886304,
+								0.22642762284196544,
+								0.6143409275577357,
+								0.3705178472308683,
+								0.7952196382428939,
+								0.499667994687915,
+								0.6072351421188631,
+								0.650066401062417,
+								0.45510335917312655,
+								0.7669322709163346,
+								0.4018087855297159,
+								0.553120849933599,
+								0.19896640826873385,
+								0.6165338645418326
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 443645244241899,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

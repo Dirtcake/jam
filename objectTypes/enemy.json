@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 522724984562988
+		},
+		{
+			"name": "distancia",
+			"type": "number",
+			"desc": "",
+			"sid": 826600100734558
 		}
 	],
 	"behaviorTypes": [

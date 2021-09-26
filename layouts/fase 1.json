@@ -203,10 +203,10 @@
 						}
 					},
 					"world": {
-						"x": 2007,
-						"y": 706,
-						"width": 44.46618602240807,
-						"height": 34.05340035356554,
+						"x": 2077,
+						"y": 554,
+						"width": 57.23069652984524,
+						"height": 43.82880556614671,
 						"originX": 0.5032786885245901,
 						"originY": 0.5,
 						"color": [
@@ -265,49 +265,6 @@
 					}
 				},
 				{
-					"type": "enemy",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 21,
-					"instanceVariables": {
-						"tempoTiro": 3
-					},
-					"behaviors": {
-						"Projétil": {
-							"properties": {
-								"speed": 200,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1533,
-						"y": 449,
-						"width": 112.06360553023974,
-						"height": 101.30119443489852,
-						"originX": 0.4918967587034814,
-						"originY": 0.4804116865869854,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "tiroEnemy",
 					"properties": {
 						"initially-visible": true,
@@ -332,12 +289,168 @@
 						}
 					},
 					"world": {
-						"x": 1917,
-						"y": 513,
+						"x": 2077,
+						"y": 487,
 						"width": 83.97191213266017,
 						"height": 52.58568923717405,
 						"originX": 0.5032786885245901,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "tiroTeleguiado",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {
+						"Projétil": {
+							"properties": {
+								"speed": 200,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 2071,
+						"y": 420,
+						"width": 63.25969882385002,
+						"height": 39.751708670808455,
+						"originX": 0.5015948963317385,
+						"originY": 0.5038071065989848,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Kamikaze",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 21,
+					"instanceVariables": {
+						"distancia": 300,
+						"velocidadeImpulso": 500,
+						"atacou": true
+					},
+					"behaviors": {
+						"Projétil": {
+							"properties": {
+								"speed": 200,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 2068,
+						"y": 340,
+						"width": 76.60727202008232,
+						"height": 48.139178908951244,
+						"originX": 0.485390796201607,
+						"originY": 0.5019782393669634,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "curto",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 24,
+					"instanceVariables": {},
+					"behaviors": {
+						"Projétil": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 2051,
+						"y": 255,
+						"width": 130.3725058244989,
+						"height": 81.92466873182224,
+						"originX": 0.4912878787878788,
+						"originY": 0.5020639834881321,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ataqueEnemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 25,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2063,
+						"y": 162,
+						"width": 95.36692145550606,
+						"height": 86.45870676759749,
+						"originX": 0.4483240223463687,
+						"originY": 0.5015961691939346,
 						"color": [
 							1,
 							1,

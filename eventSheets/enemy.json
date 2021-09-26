@@ -3,78 +3,410 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 383296363001290
-				}
-			],
-			"actions": [
-				{
-					"id": "set-angle-toward-position",
-					"objectClass": "enemy",
-					"sid": 624096368455823,
-					"parameters": {
-						"x": "Nave.X",
-						"y": "Nave.Y"
-					}
-				}
-			],
-			"sid": 401512560642031
+			"conditions": [],
+			"actions": [],
+			"sid": 357623699655640
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "SImples",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "every-x-seconds",
-					"objectClass": "System",
-					"sid": 749071873810925,
-					"parameters": {
-						"interval-seconds": "enemy.tempoTiro"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "spawn-another-object",
-					"objectClass": "enemy",
-					"sid": 716900603941653,
-					"parameters": {
-						"object": "tiroEnemy",
-						"layer": "1",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				}
-			],
-			"sid": 178889192214136
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "enemy",
-					"sid": 854799486157713,
-					"parameters": {
-						"object": "tiro"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "enemy",
-					"sid": 650008186978987
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 973099759156937
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 201296693871688,
+							"parameters": {
+								"first-value": "distance(enemy.X,enemy.Y, Nave.X,Nave.Y)",
+								"comparison": 5,
+								"second-value": "enemy.distancia"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "enemy",
+							"sid": 511876034210468,
+							"parameters": {
+								"x": "Nave.X",
+								"y": "Nave.Y"
+							}
+						}
+					],
+					"sid": 246955010248548
 				},
 				{
-					"id": "destroy",
-					"objectClass": "tiro",
-					"sid": 134695803869389
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 528056139673224,
+							"parameters": {
+								"interval-seconds": "enemy.tempoTiro"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "enemy",
+							"sid": 350104973981846,
+							"parameters": {
+								"object": "tiroEnemy",
+								"layer": "1",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 153738172762263
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "enemy",
+							"sid": 269482593110002,
+							"parameters": {
+								"object": "tiro"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "enemy",
+							"sid": 269451199418360
+						},
+						{
+							"id": "destroy",
+							"objectClass": "tiro",
+							"sid": 691831792067790
+						}
+					],
+					"sid": 266964183694932
 				}
 			],
-			"sid": 152168138841167
+			"sid": 470647614270357
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Teleguiado",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 737420763745166
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 328480147962331,
+							"parameters": {
+								"first-value": "distance(enemyTeleguiado.X,enemyTeleguiado.Y, Nave.X,Nave.Y)",
+								"comparison": 5,
+								"second-value": "enemyTeleguiado.distancia"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "enemyTeleguiado",
+							"sid": 319096382454574,
+							"parameters": {
+								"x": "Nave.X",
+								"y": "Nave.Y"
+							}
+						}
+					],
+					"sid": 275578837136858
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 133956250604685,
+							"parameters": {
+								"interval-seconds": "enemyTeleguiado.tempoTiro"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "enemyTeleguiado",
+							"sid": 824791231213718,
+							"parameters": {
+								"object": "tiroTeleguiado",
+								"layer": "1",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 699307810395714,
+							"parameters": {
+								"seconds": "enemyTeleguiado.duracaoTiro"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "tiroTeleguiado",
+							"sid": 342931575976886
+						}
+					],
+					"sid": 785406150008723
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "enemyTeleguiado",
+							"sid": 358260187691649,
+							"parameters": {
+								"object": "tiro"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "enemyTeleguiado",
+							"sid": 374955525840677
+						},
+						{
+							"id": "destroy",
+							"objectClass": "tiro",
+							"sid": 426870313038394
+						}
+					],
+					"sid": 595677720903680
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 106373084559356
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "tiroTeleguiado",
+							"sid": 352979803123931,
+							"parameters": {
+								"x": "Nave.X",
+								"y": "Nave.Y"
+							}
+						}
+					],
+					"sid": 532699560118473
+				}
+			],
+			"sid": 519861592093562
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Kamikaze",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 233156544158082
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 975029956574128,
+							"parameters": {
+								"first-value": "distance(Kamikaze.X,Kamikaze.Y, Nave.X,Nave.Y)",
+								"comparison": 5,
+								"second-value": "Kamikaze.distancia"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Kamikaze",
+							"sid": 450666707521767,
+							"parameters": {
+								"x": "Nave.X",
+								"y": "Nave.Y"
+							}
+						}
+					],
+					"sid": 345001817667102
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 200323564681684,
+							"parameters": {
+								"first-value": "distance(Kamikaze.X,Kamikaze.Y, Nave.X,Nave.Y)",
+								"comparison": 3,
+								"second-value": "Kamikaze.distancia"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Kamikaze",
+							"sid": 849724529804253,
+							"parameters": {
+								"instance-variable": "atacou"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Kamikaze",
+							"sid": 854494484160485,
+							"parameters": {
+								"instance-variable": "atacou",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Kamikaze",
+							"sid": 874158223868623,
+							"parameters": {
+								"instance-variable": "atacou",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-angle-toward-position",
+							"objectClass": "Kamikaze",
+							"sid": 586213950663983,
+							"parameters": {
+								"x": "Nave.X",
+								"y": "Nave.Y"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Kamikaze",
+							"sid": 919833910739161,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "Kamikaze.velocidadeImpulso"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 212624862994043,
+							"parameters": {
+								"seconds": "1"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Kamikaze",
+							"sid": 121336349059686,
+							"behaviorType": "Projétil",
+							"parameters": {
+								"speed": "200"
+							}
+						}
+					],
+					"sid": 120667663757035
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Kamikaze",
+							"sid": 328124566183599,
+							"parameters": {
+								"instance-variable": "atacou"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 673090074961651,
+							"parameters": {
+								"seconds": "3"
+							}
+						}
+					],
+					"sid": 920346330410301
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Kamikaze",
+							"sid": 547246293244563,
+							"parameters": {
+								"object": "tiro"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Kamikaze",
+							"sid": 922054615002196
+						}
+					],
+					"sid": 500930921977712
+				}
+			],
+			"sid": 821885713330617
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "curto",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 859388166832732
 		}
 	],
 	"sid": 723044975290053

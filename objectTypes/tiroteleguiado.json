@@ -1,0 +1,63 @@
+{
+	"name": "tiroTeleguiado",
+	"plugin-id": "Sprite",
+	"sid": 399927762550183,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 922288397279609
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 627,
+						"height": 394,
+						"originX": 0.5015948963317385,
+						"originY": 0.5038071065989848,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8724612,
+						"collisionPoly": {
+							"points": [
+								0.15151515151515169,
+								0.2741116363990124,
+								0.5063794879822071,
+								0.3350253807106599,
+								0.7272726299279807,
+								0.383248730964467,
+								0.8580542264752791,
+								0.5038071065989848,
+								0.7208931419457736,
+								0.6192892626457404,
+								0.49202551834130787,
+								0.664974541833558,
+								0.1547049441786286,
+								0.7335025380710662,
+								0.21052631578947362,
+								0.5012689580772128
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 790281039247537,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

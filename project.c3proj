@@ -107,7 +107,12 @@
 			{
 				"items": [
 					"enemy",
-					"tiroEnemy"
+					"tiroEnemy",
+					"tiroTeleguiado",
+					"enemyTeleguiado",
+					"Kamikaze",
+					"curto",
+					"ataqueEnemy"
 				],
 				"subfolders": [],
 				"name": "enemy"

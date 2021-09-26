@@ -559,6 +559,38 @@
 							"parameters": {
 								"object": "tiroEnemy"
 							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Nave",
+							"sid": 919661212022179,
+							"parameters": {
+								"object": "tiroTeleguiado"
+							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Nave",
+							"sid": 163412230050076,
+							"parameters": {
+								"object": "enemy"
+							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Nave",
+							"sid": 250899362943355,
+							"parameters": {
+								"object": "enemyTeleguiado"
+							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Nave",
+							"sid": 546797975400537,
+							"parameters": {
+								"object": "Kamikaze"
+							}
 						}
 					],
 					"actions": [
@@ -584,7 +616,8 @@
 							}
 						}
 					],
-					"sid": 237596268694334
+					"sid": 237596268694334,
+					"isOrBlock": true
 				}
 			],
 			"sid": 434875947022227

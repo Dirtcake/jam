@@ -1,0 +1,63 @@
+{
+	"name": "curto",
+	"plugin-id": "Sprite",
+	"sid": 670697669307489,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 354624336592355
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1320,
+						"height": 969,
+						"originX": 0.4912878787878788,
+						"originY": 0.5020639834881321,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6436444,
+						"collisionPoly": {
+							"points": [
+								0.3575757575757576,
+								0.415892672858617,
+								0.4943181818181818,
+								0.3570691434468523,
+								0.760605875651042,
+								0.1971102971410604,
+								0.8946967847419506,
+								0.4979361424874226,
+								0.7575757575757581,
+								0.8101136450674019,
+								0.5246212121212123,
+								0.6429309825287023,
+								0.3575757575757576,
+								0.5954592363261094,
+								0.11515170010653408,
+								0.4979358905363132
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 671040286705342,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

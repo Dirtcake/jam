@@ -1,0 +1,53 @@
+{
+	"name": "ataqueEnemy",
+	"plugin-id": "Sprite",
+	"sid": 534806597148103,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1074,
+						"height": 1253,
+						"originX": 0.4483240223463687,
+						"originY": 0.5015961691939346,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8273532,
+						"collisionPoly": {
+							"points": [
+								0.5940409683426443,
+								0.6304868316041501,
+								0.8454376163873373,
+								0.16440542697525937,
+								0.9972067039106145,
+								0.5015961691939346,
+								0.8445065176908753,
+								0.8371907422186752,
+								0.5940409683426443,
+								0.37190742218675177,
+								0.5940409683426443,
+								0.5015961691939346
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 842210395219869,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
