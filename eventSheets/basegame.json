@@ -1,0 +1,10 @@
+{
+	"name": "baseGame",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "Enemy"
+		}
+	],
+	"sid": 311472584294470
+}

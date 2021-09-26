@@ -60,8 +60,7 @@
 		"items": [
 			"Mouse",
 			"Teclado",
-			"Sprite",
-			"muzzleFire"
+			"Sprite"
 		],
 		"subfolders": [
 			{
@@ -99,10 +98,19 @@
 					"Nave",
 					"NaveArrow",
 					"NaveCircle",
-					"tiro"
+					"tiro",
+					"muzzleFire"
 				],
 				"subfolders": [],
 				"name": "player"
+			},
+			{
+				"items": [
+					"enemy",
+					"tiroEnemy"
+				],
+				"subfolders": [],
+				"name": "enemy"
 			}
 		]
 	},
@@ -140,10 +148,10 @@
 	"eventSheets": {
 		"items": [
 			"Player",
-			"Folha de eventos 2",
+			"Enemy",
 			"Folha de eventos 3",
 			"Folha de eventos 4",
-			"Folha de eventos 5",
+			"baseGame",
 			"menu"
 		],
 		"subfolders": []

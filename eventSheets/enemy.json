@@ -1,0 +1,81 @@
+{
+	"name": "Enemy",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 383296363001290
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "enemy",
+					"sid": 624096368455823,
+					"parameters": {
+						"x": "Nave.X",
+						"y": "Nave.Y"
+					}
+				}
+			],
+			"sid": 401512560642031
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 749071873810925,
+					"parameters": {
+						"interval-seconds": "enemy.tempoTiro"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "enemy",
+					"sid": 716900603941653,
+					"parameters": {
+						"object": "tiroEnemy",
+						"layer": "1",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 178889192214136
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 854799486157713,
+					"parameters": {
+						"object": "tiro"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 650008186978987
+				},
+				{
+					"id": "destroy",
+					"objectClass": "tiro",
+					"sid": 134695803869389
+				}
+			],
+			"sid": 152168138841167
+		}
+	],
+	"sid": 723044975290053
+}

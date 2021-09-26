@@ -1,0 +1,63 @@
+{
+	"name": "tiroEnemy",
+	"plugin-id": "Sprite",
+	"sid": 747255660787599,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 182620513229264
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 915,
+						"height": 573,
+						"originX": 0.5032786885245901,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9616387,
+						"collisionPoly": {
+							"points": [
+								0.33989071038251367,
+								0.34554973821989526,
+								0.5163934426229508,
+								0.4013963735956588,
+								0.6568306010928961,
+								0.450261780104712,
+								0.8306010928961746,
+								0.5,
+								0.6612021857923499,
+								0.5619544117446552,
+								0.5032786885245901,
+								0.6055846422338568,
+								0.343169398907104,
+								0.647469245950589,
+								0.18688551272199458,
+								0.49999999999999994
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 729957226537119,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

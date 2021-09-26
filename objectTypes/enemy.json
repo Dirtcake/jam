@@ -1,0 +1,70 @@
+{
+	"name": "enemy",
+	"plugin-id": "Sprite",
+	"sid": 195641918963312,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "tempoTiro",
+			"type": "number",
+			"desc": "",
+			"sid": 522724984562988
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 502355909180299
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1666,
+						"height": 1506,
+						"originX": 0.4918967587034814,
+						"originY": 0.4804116865869854,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1111826,
+						"collisionPoly": {
+							"points": [
+								0.4141656662665066,
+								0.42164674634794175,
+								0.32863130603804025,
+								0.23041168658698527,
+								0.5894357743097236,
+								0.37251004121534703,
+								0.8277312389799674,
+								0.5016600265604251,
+								0.6140457647902914,
+								0.6069057104913679,
+								0.3430372148859544,
+								0.7583001328021248,
+								0.41536614645858344,
+								0.5664010624169987,
+								0.16146458583433376,
+								0.4990039840637451
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 131927060147237,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

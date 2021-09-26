@@ -2,6 +2,10 @@
 	"name": "Player",
 	"events": [
 		{
+			"eventType": "include",
+			"includeSheet": "baseGame"
+		},
+		{
 			"eventType": "variable",
 			"name": "TargetRotation",
 			"type": "number",
@@ -541,6 +545,53 @@
 				}
 			],
 			"sid": 209404100577838
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Morte",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Nave",
+							"sid": 981220227367977,
+							"parameters": {
+								"object": "tiroEnemy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Nave",
+							"sid": 628027429967652
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 898643547075118,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 126283414059951,
+							"parameters": {
+								"layout": "derrota"
+							}
+						}
+					],
+					"sid": 237596268694334
+				}
+			],
+			"sid": 434875947022227
 		}
 	],
 	"sid": 727009462613375
