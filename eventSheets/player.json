@@ -2,10 +2,6 @@
 	"name": "Player",
 	"events": [
 		{
-			"eventType": "include",
-			"includeSheet": "baseGame"
-		},
-		{
 			"eventType": "variable",
 			"name": "TargetRotation",
 			"type": "number",

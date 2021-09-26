@@ -335,7 +335,7 @@
 						"x": 1917,
 						"y": 513,
 						"width": 83.97191213266017,
-						"height": 52.58568923717406,
+						"height": 52.58568923717405,
 						"originX": 0.5032786885245901,
 						"originY": 0.5,
 						"color": [
@@ -384,5 +384,5 @@
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
-	"eventSheet": "Player"
+	"eventSheet": "BaseGame"
 }
