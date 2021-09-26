@@ -97,6 +97,13 @@
 						],
 						"subfolders": [],
 						"name": "menu"
+					},
+					{
+						"items": [
+							"Pause"
+						],
+						"subfolders": [],
+						"name": "Pause"
 					}
 				],
 				"name": "interface"

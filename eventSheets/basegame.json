@@ -8,6 +8,104 @@
 		{
 			"eventType": "include",
 			"includeSheet": "Player"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 931022640972892,
+					"parameters": {
+						"key": 80
+					}
+				}
+			],
+			"actions": [],
+			"sid": 683325683832026,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Pause",
+							"sid": 332130753373691,
+							"parameters": {
+								"instance-variable": "pausado"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Pause",
+							"sid": 255697042761579,
+							"parameters": {
+								"instance-variable": "pausado",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-time-scale",
+							"objectClass": "System",
+							"sid": 204820015443976,
+							"parameters": {
+								"time-scale": "1"
+							}
+						},
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 747145159799162,
+							"parameters": {
+								"layer": "2",
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 352998229976104
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 284155703411684
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Pause",
+							"sid": 627006824558139,
+							"parameters": {
+								"instance-variable": "pausado",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-time-scale",
+							"objectClass": "System",
+							"sid": 130383945720540,
+							"parameters": {
+								"time-scale": "0"
+							}
+						},
+						{
+							"id": "set-layer-visible",
+							"objectClass": "System",
+							"sid": 441391829148665,
+							"parameters": {
+								"layer": "2",
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 269678464312760
+				}
+			]
 		}
 	],
 	"sid": 311472584294470
