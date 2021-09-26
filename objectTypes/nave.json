@@ -27,6 +27,11 @@
 			"behaviorId": "Turret",
 			"name": "Canhão",
 			"sid": 586447115275176
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "CentrarEm",
+			"sid": 387752463553825
 		}
 	],
 	"effectTypes": [],

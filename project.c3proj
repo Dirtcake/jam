@@ -48,6 +48,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "scrollto",
+			"name": "Centrar em",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Atrelar",
 			"author": "Scirra",
@@ -68,7 +76,11 @@
 		"items": [
 			"Mouse",
 			"Teclado",
-			"Sprite"
+			"Sprite",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5"
 		],
 		"subfolders": [
 			{
