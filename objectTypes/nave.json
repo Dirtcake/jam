@@ -22,6 +22,11 @@
 			"behaviorId": "Bullet",
 			"name": "Projétil",
 			"sid": 492880364645492
+		},
+		{
+			"behaviorId": "Turret",
+			"name": "Canhão",
+			"sid": 586447115275176
 		}
 	],
 	"effectTypes": [],

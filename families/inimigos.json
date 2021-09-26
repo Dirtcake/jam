@@ -1,0 +1,14 @@
+{
+	"name": "inimigos",
+	"plugin-id": "Sprite",
+	"sid": 748198418160035,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"enemyTeleguiado",
+		"enemy",
+		"curto",
+		"Kamikaze"
+	]
+}

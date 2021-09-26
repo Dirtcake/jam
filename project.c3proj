@@ -40,6 +40,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Turret",
+			"name": "Canhão",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Atrelar",
 			"author": "Scirra",
@@ -122,7 +130,9 @@
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"inimigos"
+		],
 		"subfolders": []
 	},
 	"layouts": {

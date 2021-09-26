@@ -95,6 +95,19 @@
 								"step": false,
 								"enabled": true
 							}
+						},
+						"Canhão": {
+							"properties": {
+								"range": 1000,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": true,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
+							}
 						}
 					},
 					"world": {

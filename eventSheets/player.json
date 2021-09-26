@@ -535,6 +535,15 @@
 							"objectClass": "muzzleFire",
 							"sid": 814588206769537,
 							"behaviorType": "Esmaecer"
+						},
+						{
+							"id": "add-object-to-target",
+							"objectClass": "Nave",
+							"sid": 365865461395968,
+							"behaviorType": "Canhão",
+							"parameters": {
+								"target": "inimigos"
+							}
 						}
 					],
 					"sid": 810295585731189
