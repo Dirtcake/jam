@@ -591,6 +591,22 @@
 							"parameters": {
 								"object": "Kamikaze"
 							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Nave",
+							"sid": 520738730864723,
+							"parameters": {
+								"object": "ataqueEnemy"
+							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Nave",
+							"sid": 938047239263984,
+							"parameters": {
+								"object": "curto"
+							}
 						}
 					],
 					"actions": [
