@@ -1,5 +1,5 @@
 {
-	"name": "Final",
+	"name": "derrota",
 	"layers": [
 		{
 			"name": "Camada 0",
@@ -14,12 +14,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 10,
+					"uid": 8,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 959,
-						"y": 538,
+						"x": 966,
+						"y": 548,
 						"width": 1918,
 						"height": 1083,
 						"originX": 0.5,
@@ -35,7 +35,7 @@
 					}
 				},
 				{
-					"type": "titulo2",
+					"type": "titulo3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -43,13 +43,13 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 11,
+					"uid": 7,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 956,
-						"y": 263,
-						"width": 676,
+						"x": 975,
+						"y": 315,
+						"width": 767.9924220596965,
 						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -59,7 +59,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.283039683181781,
 						"zElevation": 0
 					}
 				},
@@ -72,12 +72,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 12,
+					"uid": 9,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 946,
-						"y": 636,
+						"x": 1018,
+						"y": 872,
 						"width": 415,
 						"height": 120,
 						"originX": 0.5,
@@ -93,7 +93,7 @@
 					}
 				}
 			],
-			"sid": 671132224216858,
+			"sid": 614823684789635,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -120,7 +120,7 @@
 			"global": false
 		}
 	],
-	"sid": 684875717538512,
+	"sid": 153021817347450,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1920,

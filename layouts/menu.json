@@ -1,5 +1,5 @@
 {
-	"name": "Final",
+	"name": "menu",
 	"layers": [
 		{
 			"name": "Camada 0",
@@ -14,43 +14,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 10,
+					"uid": 2,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 959,
-						"y": 538,
+						"y": 539.5,
 						"width": 1918,
 						"height": 1083,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "titulo2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 11,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 956,
-						"y": 263,
-						"width": 676,
-						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -67,17 +38,17 @@
 					"type": "botao",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "voltar",
+						"initial-animation": "sair",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 12,
+					"uid": 3,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 946,
-						"y": 636,
+						"x": 998,
+						"y": 851,
 						"width": 415,
 						"height": 120,
 						"originX": 0.5,
@@ -91,9 +62,96 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "botao",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "creditos",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1001,
+						"y": 686,
+						"width": 415,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "botao",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Start",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1005,
+						"y": 531,
+						"width": 415,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "menu",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1019,
+						"y": 218,
+						"width": 676,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 671132224216858,
+			"sid": 865802247146889,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -120,7 +178,7 @@
 			"global": false
 		}
 	],
-	"sid": 684875717538512,
+	"sid": 799533222146611,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1920,

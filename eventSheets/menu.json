@@ -1,0 +1,153 @@
+{
+	"name": "menu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 919441461524642,
+					"parameters": {
+						"object": "botao"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "botao",
+					"sid": 831332244351725,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 546857093750225
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 910165263647731
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "botao",
+					"sid": 335670894157384,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 714078836323310
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 680000274423709,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botao"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "botao",
+					"sid": 923473496162999,
+					"parameters": {
+						"animation": "\"Start\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 848577455587770,
+					"parameters": {
+						"layout": "Fase 1"
+					}
+				}
+			],
+			"sid": 310025810446830
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 978024748530899,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botao"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "botao",
+					"sid": 311986267157456,
+					"parameters": {
+						"animation": "\"creditos\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 823202996550714,
+					"parameters": {
+						"layout": "Final"
+					}
+				}
+			],
+			"sid": 643350251488173
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 184121004196554,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botao"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "botao",
+					"sid": 187836077840792,
+					"parameters": {
+						"animation": "\"voltar\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 609882362811967,
+					"parameters": {
+						"layout": "menu"
+					}
+				}
+			],
+			"sid": 723746034221598
+		}
+	],
+	"sid": 972633685264063
+}
