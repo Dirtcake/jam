@@ -1,0 +1,48 @@
+{
+	"name": "muzzleFire",
+	"plugin-id": "Sprite",
+	"sid": 582935516532547,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Esmaecer",
+			"sid": 988969896368828
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Atrelar",
+			"sid": 873452162497837
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 452,
+						"height": 998,
+						"originX": -0.6869469026548672,
+						"originY": 0.499498997995992,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4133999,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 964798128006814,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

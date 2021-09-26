@@ -218,6 +218,51 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "muzzleFire",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {
+						"Esmaecer": {
+							"properties": {
+								"fade-in-time": 0,
+								"wait-time": 0,
+								"fade-out-time": 0.2,
+								"destroy": false,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Atrelar": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 1010.7837235362899,
+						"y": 626.9056112510101,
+						"width": 22.6,
+						"height": 49.900000000000006,
+						"originX": -0.6869469026548672,
+						"originY": 0.499498997995992,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 145380148368246,

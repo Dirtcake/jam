@@ -357,6 +357,21 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "muzzleFire",
+					"sid": 598192576812829,
+					"behaviorType": "Atrelar",
+					"parameters": {
+						"pin-to": "Nave",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
 				}
 			],
 			"sid": 597268029345045
@@ -508,6 +523,18 @@
 								"image-point": "1",
 								"create-hierarchy": false
 							}
+						},
+						{
+							"id": "restart-fade",
+							"objectClass": "muzzleFire",
+							"sid": 459650300742942,
+							"behaviorType": "Esmaecer"
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "muzzleFire",
+							"sid": 814588206769537,
+							"behaviorType": "Esmaecer"
 						}
 					],
 					"sid": 810295585731189
