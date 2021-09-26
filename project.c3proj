@@ -51,9 +51,6 @@
 	"objectTypes": {
 		"items": [
 			"Mouse",
-			"Nave",
-			"NaveCircle",
-			"NaveArrow",
 			"Teclado",
 			"Sprite"
 		],
@@ -87,6 +84,16 @@
 					}
 				],
 				"name": "interface"
+			},
+			{
+				"items": [
+					"Nave",
+					"NaveArrow",
+					"NaveCircle",
+					"tiro"
+				],
+				"subfolders": [],
+				"name": "player"
 			}
 		]
 	},

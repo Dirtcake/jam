@@ -22,6 +22,16 @@
 			"sid": 816047881357861
 		},
 		{
+			"eventType": "variable",
+			"name": "isM",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 367431908896831
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Movimentação",
@@ -405,6 +415,15 @@
 						"variable": "stopOpacity",
 						"value": "100"
 					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 309985145830039,
+					"parameters": {
+						"variable": "isM",
+						"value": "true"
+					}
 				}
 			],
 			"sid": 993298540758854,
@@ -437,9 +456,64 @@
 						"variable": "stopOpacity",
 						"value": "0"
 					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 268313567331088,
+					"parameters": {
+						"variable": "isM",
+						"value": "false"
+					}
 				}
 			],
 			"sid": 816989792921166
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Tiro",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 711338330635451,
+							"parameters": {
+								"variable": "isM"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 177101879268478,
+							"parameters": {
+								"interval-seconds": "Nave.tempoTiro"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Nave",
+							"sid": 834340186759969,
+							"parameters": {
+								"object": "tiro",
+								"layer": "1",
+								"image-point": "1",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 810295585731189
+				}
+			],
+			"sid": 209404100577838
 		}
 	],
 	"sid": 727009462613375

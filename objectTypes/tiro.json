@@ -1,0 +1,63 @@
+{
+	"name": "tiro",
+	"plugin-id": "Sprite",
+	"sid": 419019569159701,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 273443120485402
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 915,
+						"height": 573,
+						"originX": 0.5032786885245901,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5029738,
+						"collisionPoly": {
+							"points": [
+								0.4010928961748634,
+								0.34554973821989526,
+								0.5032786885245901,
+								0.37347294938917974,
+								0.5606557377049181,
+								0.41535776614310643,
+								0.8306010928961746,
+								0.5,
+								0.5650273224043718,
+								0.5898778359511344,
+								0.5032786885245901,
+								0.6265270506108203,
+								0.4,
+								0.6544502617801047,
+								0.19562841530054645,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 929837497360418,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

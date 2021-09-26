@@ -81,7 +81,8 @@
 					},
 					"uid": 14,
 					"instanceVariables": {
-						"Velocidade": 200
+						"Velocidade": 200,
+						"tempoTiro": 1
 					},
 					"behaviors": {
 						"Projétil": {
@@ -166,6 +167,47 @@
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "tiro",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {
+						"Projétil": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 2007,
+						"y": 706,
+						"width": 44.46618602240807,
+						"height": 34.05340035356554,
+						"originX": 0.5032786885245901,
 						"originY": 0.5,
 						"color": [
 							1,
