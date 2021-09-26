@@ -1,11 +1,11 @@
 {
-	"name": "Layout 1",
+	"name": "Vitoria",
 	"layers": [
 		{
 			"name": "Camada 0",
 			"overriden": 0,
 			"instances": [],
-			"sid": 132899945009278,
+			"sid": 865802247146889,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -32,7 +32,7 @@
 			"global": false
 		}
 	],
-	"sid": 430085467545783,
+	"sid": 799533222146611,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -40,5 +40,5 @@
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
-	"eventSheet": "Folha de eventos 1"
+	"eventSheet": "Folha de eventos 7"
 }

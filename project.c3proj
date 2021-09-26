@@ -18,14 +18,40 @@
 		"subfolders": []
 	},
 	"layouts": {
-		"items": [
-			"Layout 1"
-		],
-		"subfolders": []
+		"items": [],
+		"subfolders": [
+			{
+				"items": [
+					"Fase 1",
+					"Fase 2",
+					"Fase 3",
+					"Fase 4",
+					"Boss"
+				],
+				"subfolders": [],
+				"name": "Fases"
+			},
+			{
+				"items": [
+					"Inicial",
+					"Vitoria",
+					"Final"
+				],
+				"subfolders": [],
+				"name": "Menu"
+			}
+		]
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1"
+			"Folha de eventos 1",
+			"Folha de eventos 2",
+			"Folha de eventos 3",
+			"Folha de eventos 4",
+			"Folha de eventos 5",
+			"Folha de eventos 6",
+			"Folha de eventos 7",
+			"Folha de eventos 8"
 		],
 		"subfolders": []
 	},
