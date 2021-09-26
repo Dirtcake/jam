@@ -12,6 +12,16 @@
 			"sid": 933197258434180
 		},
 		{
+			"eventType": "variable",
+			"name": "stopOpacity",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 816047881357861
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Movimentação",
@@ -275,6 +285,22 @@
 							"parameters": {
 								"angle": "anglelerp(Nave.Angle,TargetRotation,0.06 )"
 							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "NaveCircle",
+							"sid": 783179805625941,
+							"parameters": {
+								"opacity": "lerp(NaveCircle.Opacity,stopOpacity,0.1)"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "NaveArrow",
+							"sid": 858150639456063,
+							"parameters": {
+								"opacity": "lerp(NaveArrow.Opacity,stopOpacity,0.1)"
+							}
 						}
 					],
 					"sid": 860516765839024
@@ -370,6 +396,15 @@
 					"parameters": {
 						"speed": "Nave.Velocidade"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 358427126818335,
+					"parameters": {
+						"variable": "stopOpacity",
+						"value": "100"
+					}
 				}
 			],
 			"sid": 993298540758854,
@@ -392,6 +427,15 @@
 					"behaviorType": "Projétil",
 					"parameters": {
 						"speed": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 529555587707597,
+					"parameters": {
+						"variable": "stopOpacity",
+						"value": "0"
 					}
 				}
 			],
